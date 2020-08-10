@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+
+/*Desktop version*/
+
+@media(min-width: 992px) and (orientation:landscape){
+	#id1{
+		width:25%;
+		height:80%;
+	}
+	#id2{
+		width:25%;
+		height:80%;
+	}
+	#id3{
+		width:25%;
+		height:80%;
+	}
+
+}
+/*Tablet version*/
+
+@media(min-width:768px ) and (max-width: 991px){
+	#id1{
+		width:40%;
+		height:100%;
+	}
+	#id2{
+		width:40%;
+		height:100%;
+		
+	}
+	#id3{
+		width:100%;
+		height:80%;
+		
+	}
+}
+/*Mobile version*/
+@media(max-width: 767px) and (orientation:portrait){
+	#id1{
+		width:80%;
+		height:100%;
+	}
+	#id2{
+		width:80%;
+		height:100%;
+	}
+	#id3{
+		width:80%;
+		height:100%;
+	}
+}
+
+section{
+
+	border:2px solid black;
+	margin:20px;
+    clear:right;
+
+
+
+	background-color: gray;
+
+
+}
+
+#id1{
+	float:left;
+
+}
+
+#id2{
+	float:left;
+}
+
+
+#id3{
+
+	float:left;
+}
+
+
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h3{
+	
+	text-align: center;
+}
+
+.chicken{
+
+border:2px solid black;
+width:36%;
+background-color: #FA8072;
+
+position: relative;
+top:1%;
+left:64.6%;
+
+}
+
+.beef{
+	border:2px solid black;
+	width:36%;
+	height:20%;
+	color:white;
+	background-color: #A52A2A;
+
+position: relative;
+top:1%;
+left:64.6%;
+	
+}
+
+.sushi{
+	 border:2px solid black;
+     width:36%;
+     height:20%;
+     background-color: #FFD700;
+
+position: relative;
+top:1%;
+left:64.4%;
+
+}
+
+p{
+	font-weight: bold;
+    font-family: Albertus MT, sans-serif;
+
+    margin:10px;
+}
